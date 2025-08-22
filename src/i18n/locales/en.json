@@ -1,0 +1,520 @@
+{
+    "common": {
+        "loading": "Loading...",
+        "error": "Error",
+        "success": "Success",
+        "cancel": "Cancel",
+        "save": "Save",
+        "delete": "Delete",
+        "edit": "Edit",
+        "search": "Search",
+        "filter": "Filter",
+        "refresh": "Refresh",
+        "close": "Close",
+        "back": "Back",
+        "next": "Next",
+        "previous": "Previous",
+        "submit": "Submit",
+        "reset": "Reset",
+        "confirm": "Confirm",
+        "yes": "Yes",
+        "no": "No",
+        "select": "Select",
+        "all": "All",
+        "none": "None",
+        "today": "Today",
+        "yesterday": "Yesterday",
+        "thisWeek": "This Week",
+        "thisMonth": "This Month",
+        "language": "Language"
+    },
+    "navigation": {
+        "home": "Home",
+        "dashboard": "Dashboard",
+        "news": "News",
+        "archive": "Archive",
+        "settings": "Settings",
+        "profile": "Profile",
+        "logout": "Logout",
+        "signIn": "Sign In",
+        "register": "Register",
+        "getStarted": "Get Started",
+        "features": "Features",
+        "demo": "Demo",
+        "pricing": "Pricing",
+        "testimonials": "Testimonials",
+        "about": "About",
+        "contact": "Contact",
+        "help": "Help"
+    },
+    "auth": {
+        "login": "Login",
+        "register": "Register",
+        "email": "Email",
+        "password": "Password",
+        "confirmPassword": "Confirm Password",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "rememberMe": "Remember Me",
+        "forgotPassword": "Forgot Password?",
+        "resetPassword": "Reset Password",
+        "createAccount": "Create Account",
+        "haveAccount": "Already have an account?",
+        "noAccount": "Don't have an account?",
+        "loginWith": "Login with {{provider}}",
+        "registerWith": "Register with {{provider}}",
+        "acceptTerms": "I accept the Terms of Service and Privacy Policy",
+        "loginSuccess": "Login successful!",
+        "registerSuccess": "Registration successful!",
+        "logoutSuccess": "Logout successful!",
+        "invalidCredentials": "Invalid email or password",
+        "emailRequired": "Email is required",
+        "passwordRequired": "Password is required",
+        "passwordTooShort": "Password must be at least 6 characters",
+        "emailInvalid": "Please enter a valid email address",
+        "passwordsNotMatch": "Passwords do not match"
+    },
+    "landing": {
+        "title": "Chimera News - AI-Powered News Aggregation Platform",
+        "description": "Cut through information noise with AI-powered news curation. Get personalized summaries, Telegram integration, and multi-language support. Start free today.",
+        "heroTitle": "Cut Through the",
+        "heroTitleHighlight": "Information Noise",
+        "heroSubtitle": "Get AI-curated, personalized news from your chosen sources. Save time with intelligent summaries and multi-platform delivery to your Telegram channels.",
+        "aiPoweredCuration": "AI-Powered News Curation",
+        "aiAgents": {
+            "hydra": {
+                "name": "Hydra",
+                "description": "AI agent for multi-platform news analysis and processing from various sources"
+            },
+            "oracle": {
+                "name": "Oracle", 
+                "description": "AI agent for predictive analytics and content personalization"
+            }
+        },
+        "stats": {
+            "articlesProcessed": "Articles Processed",
+            "activeUsers": "Active Users",
+            "timeSaved": "Time Saved"
+        },
+        "benefits": {
+            "timeSaving": "Time Saving",
+            "upTo": "up to 80%",
+            "personalization": "Personalization",
+            "aiFilters": "AI Filters",
+            "flowControl": "Flow Control",
+            "information": "of information"
+        },
+        "mockNews": {
+            "article1": {
+                "title": "AI revolution in medicine: breakthrough discovery",
+                "source": "TechNews",
+                "time": "2 min ago"
+            },
+            "article2": {
+                "title": "Global markets show recovery signs",
+                "source": "FinanceDaily",
+                "time": "5 min ago"
+            },
+            "article3": {
+                "title": "Climate summit: historic agreement reached",
+                "source": "WorldReport",
+                "time": "8 min ago"
+            }
+        },
+        "systemOperation": {
+            "title": "How the system works",
+            "steps": "1. Collect → 2. AI Analysis → 3. Filter → 4. Personalize → 5. Deliver"
+        },
+        "floatingElements": {
+            "aiFiltering": "AI Filtering",
+            "autoTelegram": "Auto-Telegram"
+        },
+        "getStartedFree": "Get Started Free",
+        "viewDemo": "View Demo",
+        "trustIndicators": {
+            "secure": "Secure & Private",
+            "realTime": "Real-time Updates",
+            "multiLanguage": "Multi-language"
+        },
+        "features": {
+            "title": "Powerful Features",
+            "subtitle": "Everything you need for smart news consumption",
+            "tagline": "for smart news consumption",
+            "learnMore": "Learn More",
+            "aiCuration": {
+                "title": "Smart AI Curation",
+                "description": "Our AI analyzes thousands of articles to surface the most relevant and important news for your interests."
+            },
+            "telegramIntegration": {
+                "title": "Telegram Integration",
+                "description": "Automatically deliver curated news summaries directly to your Telegram channels and groups."
+            },
+            "multiLanguage": {
+                "title": "Multi-language Support",
+                "description": "Read news in your preferred language with support for English, Russian, and Yakut (Sakha)."
+            },
+            "semanticAnalysis": {
+                "title": "Semantic Analysis",
+                "description": "Deep content analysis including sentiment, entities, topics, and fact extraction for better understanding."
+            },
+            "realTimeUpdates": {
+                "title": "Real-time Updates",
+                "description": "Stay up-to-date with live news feeds and instant notifications for breaking news."
+            },
+            "customFilters": {
+                "title": "Advanced Filtering",
+                "description": "Filter news by sources, keywords, sentiment, topics, and more to get exactly what you need."
+            },
+            "systemPrinciples": {
+                "title": "How the System Works",
+                "subtitle": "Five stages of intelligent news processing from collection to personalized delivery",
+                "steps": {
+                    "collection": {
+                        "title": "Information Collection",
+                        "description": "Hydra scans thousands of sources in real-time"
+                    },
+                    "analysis": {
+                        "title": "AI Analysis",
+                        "description": "Oracle analyzes content for relevance and quality"
+                    },
+                    "filtering": {
+                        "title": "Filtering",
+                        "description": "Intelligent removal of duplicates and low-quality content"
+                    },
+                    "personalization": {
+                        "title": "Personalization",
+                        "description": "Adaptation to your interests and preferences"
+                    },
+                    "delivery": {
+                        "title": "Delivery",
+                        "description": "Multi-platform delivery in convenient format"
+                    }
+                }
+            },
+            "keyBenefits": {
+                "timeSaving": {
+                    "title": "Time Saving",
+                    "description": "Up to 80% time savings on searching and filtering relevant news"
+                },
+                "personalization": {
+                    "title": "Personalization",
+                    "description": "AI filters adapt to your interests and preferences"
+                },
+                "flowControl": {
+                    "title": "Flow Control",
+                    "description": "Complete control over information flow and its quality"
+                }
+            },
+            "bottomCta": {
+                "userCount": "Over 1,200+ users already save time with AI curation"
+            }
+        },
+        "demo": {
+            "liveDemo": "Live Demo",
+            "title": "See it in Action",
+            "subtitle": "Experience the power of AI-driven news aggregation",
+            "aiFiltered": "AI Filtering",
+            "autoTelegram": "Auto-Telegram"
+        },
+        "pricing": {
+            "title": "Simple and Clear Pricing",
+            "subtitle": "Choose the plan that's right for you",
+            "description": "Start free and scale as you grow. All plans include our core AI curation features without hidden fees or long-term commitments.",
+            "monthly": "Monthly",
+            "yearly": "Yearly",
+            "saveTwentyPercent": "Save 20%",
+            "mostPopular": "Most Popular",
+            "whatIncluded": "What's included:",
+            "starter": {
+                "name": "Starter",
+                "description": "Perfect for individual users and small teams",
+                "price": "Free",
+                "features": [
+                    "Up to 5 news sources",
+                    "50 articles per day",
+                    "Basic AI summaries",
+                    "Email notifications",
+                    "Web dashboard access",
+                    "Community support"
+                ],
+                "limitations": [
+                    "No Telegram integration",
+                    "Limited semantic analysis",
+                    "Basic filtering capabilities"
+                ],
+                "cta": "Start Free"
+            },
+            "professional": {
+                "name": "Professional",
+                "description": "Perfect for journalists and content creators",
+                "monthlyPrice": 29,
+                "yearlyPrice": 290,
+                "features": [
+                    "Unlimited news sources",
+                    "500 articles per day",
+                    "Advanced AI summaries",
+                    "Telegram bot integration",
+                    "Semantic analysis",
+                    "Advanced filtering",
+                    "Trend analysis",
+                    "Archive system",
+                    "Priority support"
+                ],
+                "cta": "Start Professional"
+            },
+            "enterprise": {
+                "name": "Enterprise",
+                "description": "For large organizations and news agencies",
+                "monthlyPrice": 99,
+                "yearlyPrice": 990,
+                "features": [
+                    "Everything in Professional",
+                    "Unlimited articles",
+                    "Multiple Telegram channels",
+                    "Custom AI models",
+                    "API access",
+                    "White-label options",
+                    "Advanced analytics",
+                    "Dedicated support",
+                    "Custom integrations"
+                ],
+                "cta": "Contact Sales"
+            },
+            "faq": {
+                "title": "Frequently Asked Questions",
+                "questions": [
+                    {
+                        "question": "Can I change my plan at any time?",
+                        "answer": "Yes, you can upgrade or downgrade your plan at any time. Changes take effect immediately."
+                    },
+                    {
+                        "question": "Is there a free trial?",
+                        "answer": "Our Starter plan is completely free forever. Professional and Enterprise plans offer a 14-day free trial."
+                    },
+                    {
+                        "question": "What payment methods do you accept?",
+                        "answer": "We accept all major credit cards, PayPal, and bank transfers for enterprise plans."
+                    },
+                    {
+                        "question": "Can I cancel at any time?",
+                        "answer": "Absolutely. Cancel anytime without penalties. Your service continues until the end of your billing period."
+                    }
+                ]
+            },
+            "bottomCta": {
+                "title": "Ready to transform your news experience?",
+                "subtitle": "Join thousands of professionals who trust Chimera News for intelligent, personalized news curation. Create your free account today.",
+                "cta": "Start Free Trial"
+            }
+        },
+        "testimonials": {
+            "title": "What Our Users Say",
+            "subtitle": "Join thousands of satisfied users who save hours daily",
+            "badge": "User Reviews",
+            "trustedBy": "Trusted by news professionals worldwide",
+            "description": "Join thousands of journalists, analysts, and content creators who rely on Chimera News for intelligent news curation and distribution.",
+            "stats": [
+                { "label": "User Satisfaction", "value": "98%", "icon": "Heart" },
+                { "label": "Time Saved", "value": "3.2h", "icon": "Clock" },
+                { "label": "Accuracy", "value": "94.2%", "icon": "Target" },
+                { "label": "Active Users", "value": "1.2K+", "icon": "Users" }
+            ],
+            "testimonials": [
+                {
+                    "name": "Sarah Chen",
+                    "role": "Tech Journalist",
+                    "company": "Digital Today",
+                    "content": "Chimera News revolutionized my workflow. AI curation saves me over 3 hours daily, and Telegram integration keeps my audience engaged with timely updates. It's like having a personal news assistant.",
+                    "highlight": "Saves over 3 hours daily"
+                },
+                {
+                    "name": "Marcus Rodriguez",
+                    "role": "Business Analyst",
+                    "company": "FinTech Insights",
+                    "content": "The semantic analysis feature is incredible. I can quickly identify market trends and sentiment shifts that would take hours to find manually. Multi-language support is perfect for global coverage.",
+                    "highlight": "Incredible semantic analysis"
+                },
+                {
+                    "name": "Elena Volkova",
+                    "role": "Content Creator",
+                    "company": "NewsHub Channel",
+                    "content": "Managing multiple Telegram channels was a nightmare before Chimera. Now everything is automated with perfect timing and formatting. My engagement metrics increased by 40% since switching.",
+                    "highlight": "40% engagement growth"
+                },
+                {
+                    "name": "Dr. Ahmed Hassan",
+                    "role": "Research Director",
+                    "company": "Global Policy Institute",
+                    "content": "Keyword filtering and trend analysis help me stay ahead of political developments. AI summaries are remarkably accurate, and the archive system makes research effortless.",
+                    "highlight": "Remarkably accurate AI"
+                }
+            ],
+            "trustBadges": "Trusted by leading organizations"
+        },
+        "cta": {
+            "title": "Ready to Transform Your News Experience?",
+            "subtitle": "Join thousands of users who have revolutionized their news consumption with AI-powered curation.",
+            "getStarted": "Get Started Now",
+            "freeTrial": "Start your free trial today - no credit card required",
+            "badge": "Ready to start?",
+            "benefits": [
+                { "title": "Time Saving", "icon": "Clock" },
+                { "title": "Personalization", "icon": "Target" },
+                { "title": "Control", "icon": "Shield" }
+            ],
+            "registerButton": "Register",
+            "loginButton": "Sign In"
+        },
+        "footer": {
+            "tagline": "AI-Powered News Curation",
+            "description": "Stay informed with intelligent news aggregation and personalized content delivery.",
+            "newsletter": {
+                "title": "Stay Updated",
+                "description": "Get the latest news about AI-powered journalism and product updates delivered to your inbox.",
+                "placeholder": "Enter your email address",
+                "subscribe": "Subscribe",
+                "subscribed": "Thanks for subscribing!"
+            },
+            "product": "Product",
+            "company": "Company",
+            "resources": "Resources",
+            "support": "Support",
+            "legal": "Legal",
+            "features": "Features",
+            "pricing": "Pricing",
+            "api": "API Documentation",
+            "integrations": "Integrations",
+            "changelog": "Changelog",
+            "aboutUs": "About Us",
+            "blog": "Blog",
+            "careers": "Careers",
+            "pressKit": "Press Kit",
+            "contact": "Contact",
+            "helpCenter": "Help Center",
+            "community": "Community",
+            "tutorials": "Tutorials",
+            "webinars": "Webinars",
+            "status": "Status Page",
+            "documentation": "Documentation",
+            "privacyPolicy": "Privacy Policy",
+            "termsOfService": "Terms of Service",
+            "cookiePolicy": "Cookie Policy",
+            "gdpr": "GDPR",
+            "security": "Security",
+            "allRightsReserved": "All rights reserved.",
+            "followUs": "Follow us",
+            "language": "Language:",
+            "systemStatus": "All systems operational",
+            "compliance": "SOC 2 Compliant"
+        }
+    },
+    "dashboard": {
+        "title": "News Dashboard",
+        "welcome": "Welcome back",
+        "todayArticles": "Today: {{count}} articles",
+        "saved": "Saved: {{count}}",
+        "sources": "Sources: {{count}} active",
+        "manageSources": "Manage Sources",
+        "archive": "Archive",
+        "processing": "Processing: {{count}} articles",
+        "lastUpdate": "Last update: {{time}}",
+        "connected": "Connected",
+        "connecting": "Connecting...",
+        "disconnected": "Disconnected",
+        "viewModes": {
+            "tiles": "Tiles",
+            "list": "List",
+            "compact": "Compact"
+        },
+        "filters": {
+            "title": "Filters",
+            "sources": "Sources",
+            "keywords": "Keywords",
+            "dateRange": "Date Range",
+            "sentiment": "Sentiment",
+            "positive": "Positive",
+            "neutral": "Neutral",
+            "negative": "Negative",
+            "clearAll": "Clear All"
+        },
+        "trends": {
+            "title": "Trending Topics",
+            "topKeywords": "Top Keywords",
+            "sentimentOverview": "Sentiment Overview",
+            "sourceActivity": "Source Activity"
+        },
+        "news": {
+            "analyze": "Analyze",
+            "save": "Save",
+            "share": "Share",
+            "readMore": "Read More",
+            "saved": "Saved",
+            "sentiment": "Sentiment",
+            "entities": "Entities",
+            "topics": "Topics",
+            "summary": "Summary",
+            "facts": "Facts",
+            "relatedArticles": "Related Articles"
+        },
+        "shortcuts": {
+            "toggleFilters": "Toggle Filters",
+            "toggleTrends": "Toggle Trends",
+            "closePanels": "Close Panels"
+        }
+    },
+    "analysis": {
+        "title": "Semantic Analysis",
+        "subtitle": "AI-powered content analysis",
+        "tabs": {
+            "summary": "Summary",
+            "sentiment": "Sentiment",
+            "entities": "Entities",
+            "topics": "Topics",
+            "facts": "Facts",
+            "related": "Related"
+        },
+        "sentiment": {
+            "positive": "Positive",
+            "neutral": "Neutral",
+            "negative": "Negative",
+            "confidence": "Confidence: {{score}}%"
+        },
+        "entities": {
+            "people": "People",
+            "organizations": "Organizations",
+            "locations": "Locations",
+            "misc": "Miscellaneous"
+        },
+        "actions": {
+            "saveArticle": "Save Article",
+            "shareToTelegram": "Share to Telegram",
+            "copyLink": "Copy Link",
+            "viewSource": "View Source"
+        }
+    },
+    "settings": {
+        "title": "Settings",
+        "profile": "Profile",
+        "preferences": "Preferences",
+        "integrations": "Integrations",
+        "notifications": "Notifications",
+        "language": "Language",
+        "theme": "Theme",
+        "sources": "News Sources",
+        "keywords": "Keywords",
+        "filters": "Default Filters",
+        "telegram": "Telegram Integration",
+        "email": "Email Notifications",
+        "push": "Push Notifications"
+    },
+    "errors": {
+        "pageNotFound": "Page Not Found",
+        "serverError": "Server Error",
+        "networkError": "Network Error",
+        "unauthorized": "Unauthorized",
+        "forbidden": "Forbidden",
+        "tryAgain": "Try Again",
+        "goHome": "Go Home",
+        "contactSupport": "Contact Support"
+    }
+}

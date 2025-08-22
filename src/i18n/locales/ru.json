@@ -1,0 +1,510 @@
+{
+    "common": {
+        "loading": "Загрузка...",
+        "error": "Ошибка", 
+        "success": "Успех",
+        "cancel": "Отмена",
+        "save": "Сохранить",
+        "delete": "Удалить",
+        "edit": "Редактировать",
+        "search": "Поиск",
+        "filter": "Фильтр",
+        "refresh": "Обновить",
+        "close": "Закрыть",
+        "back": "Назад",
+        "next": "Далее",
+        "previous": "Предыдущий",
+        "submit": "Отправить",
+        "reset": "Сбросить",
+        "confirm": "Подтвердить",
+        "yes": "Да",
+        "no": "Нет",
+        "select": "Выбрать",
+        "all": "Все",
+        "none": "Ничего",
+        "today": "Сегодня",
+        "yesterday": "Вчера",
+        "thisWeek": "На этой неделе",
+        "thisMonth": "В этом месяце",
+        "language": "Язык"
+    },
+    "navigation": {
+        "home": "Главная",
+        "dashboard": "Панель управления",
+        "news": "Новости",
+        "archive": "Архив",
+        "settings": "Настройки",
+        "profile": "Профиль",
+        "logout": "Выйти",
+        "signIn": "Войти",
+        "register": "Регистрация",
+        "getStarted": "Начать",
+        "features": "Возможности",
+        "demo": "Demo",
+        "pricing": "Цены",
+        "testimonials": "Отзывы",
+        "about": "О нас",
+        "contact": "Контакты",
+        "help": "Помощь"
+    },
+    "auth": {
+        "login": "Войти",
+        "register": "Регистрация",
+        "email": "Электронная почта",
+        "password": "Пароль",
+        "confirmPassword": "Подтвердите пароль",
+        "firstName": "Имя",
+        "lastName": "Фамилия",
+        "rememberMe": "Запомнить меня",
+        "forgotPassword": "Забыли пароль?",
+        "resetPassword": "Сбросить пароль",
+        "createAccount": "Создать аккаунт",
+        "haveAccount": "Уже есть аккаунт?",
+        "noAccount": "Нет аккаунта?",
+        "loginWith": "Войти через {{provider}}",
+        "registerWith": "Зарегистрироваться через {{provider}}",
+        "acceptTerms": "Я принимаю Условия использования и Политику конфиденциальности",
+        "loginSuccess": "Успешный вход!",
+        "registerSuccess": "Успешная регистрация!",
+        "logoutSuccess": "Успешный выход!",
+        "invalidCredentials": "Неверный email или пароль",
+        "emailRequired": "Электронная почта обязательна",
+        "passwordRequired": "Пароль обязателен",
+        "passwordTooShort": "Пароль должен содержать не менее 8 символов",
+        "passwordsNotMatch": "Пароли не совпадают",
+        "emailInvalid": "Неверный формат email",
+        "firstNameRequired": "Имя обязательно",
+        "lastNameRequired": "Фамилия обязательна",
+        "termsRequired": "Необходимо принять условия использования"
+    },
+    "landing": {
+        "title": "Chimera News - AI-Платформа для агрегации новостей",
+        "description": "Прорвитесь сквозь информационный шум с помощью ИИ-кураторства новостей. Получайте персонализированные сводки, интеграцию с Telegram и поддержку нескольких языков. Начните бесплатно уже сегодня.",
+        "heroTitle": "Прорвитесь сквозь",
+        "heroTitleHighlight": "Информационный Шум",
+        "heroSubtitle": "Получайте персонализированные новости от выбранных источников с ИИ-кураторством. Экономьте время с умными сводками и многоплатформенной доставкой в ваши Telegram каналы.",
+        "aiPoweredCuration": "ИИ-Кураторство новостей",
+        "aiAgents": {
+            "hydra": {
+                "name": "Гидра",
+                "description": "ИИ-агент для многоплатформенного анализа новостей и обработки из различных источников"
+            },
+            "oracle": {
+                "name": "Оракул",
+                "description": "ИИ-агент для прогнозной аналитики и персонализации контента"
+            }
+        },
+        "stats": {
+            "articlesProcessed": "Обработано статей",
+            "activeUsers": "Активных пользователей",
+            "timeSaved": "Экономия времени"
+        },
+        "benefits": {
+            "timeSaving": "Экономия времени",
+            "upTo": "до 80%",
+            "personalization": "Персонализация",
+            "aiFilters": "ИИ-фильтры",
+            "flowControl": "Контроль потока",
+            "information": "информации"
+        },
+        "mockNews": {
+            "article1": {
+                "title": "ИИ революция в медицине: новый прорыв",
+                "source": "TechNews",
+                "time": "2 мин назад"
+            },
+            "article2": {
+                "title": "Глобальные рынки показывают восстановление",
+                "source": "FinanceDaily",
+                "time": "5 мин назад"
+            },
+            "article3": {
+                "title": "Климатический саммит: историческое соглашение",
+                "source": "WorldReport",
+                "time": "8 мин назад"
+            }
+        },
+        "systemOperation": {
+            "title": "Принцип работы системы",
+            "steps": "1. Сбор → 2. ИИ-анализ → 3. Фильтрация → 4. Персонализация → 5. Доставка"
+        },
+        "floatingElements": {
+            "aiFiltering": "ИИ-фильтрация",
+            "autoTelegram": "Авто-Telegram"
+        },
+        "getStartedFree": "Начать бесплатно",
+        "viewDemo": "Смотреть демо",
+        "trustIndicators": {
+            "secure": "Безопасно и конфиденциально",
+            "realTime": "Обновления в реальном времени",
+            "multiLanguage": "Мультиязычность"
+        },
+        "hero": {
+            "title": "AI-Powered News Aggregation Platform",
+            "subtitle": "Discover, analyze, and stay informed with intelligent news curation powered by advanced artificial intelligence",
+            "cta": "Start Free Trial",
+            "watchDemo": "Смотреть демо"
+        },
+        "features": {
+            "title": "Мощные возможности",
+            "subtitle": "Всё, что нужно для эффективного управления новостями",
+            "tagline": "для умного потребления новостей",
+            "learnMore": "Подробнее",
+            "aiCuration": {
+                "title": "ИИ-Кураторство",
+                "description": "Интеллектуальный отбор и анализ новостей"
+            },
+            "telegramIntegration": {
+                "title": "Интеграция с Telegram",
+                "description": "Автоматическая публикация в ваши каналы"
+            },
+            "multiLanguage": {
+                "title": "Мультиязычность",
+                "description": "Поддержка множества языков"
+            },
+            "semanticAnalysis": {
+                "title": "Семантический анализ",
+                "description": "Глубокий анализ контента и настроений"
+            },
+            "realTimeUpdates": {
+                "title": "Обновления в реальном времени",
+                "description": "Мгновенное получение актуальных новостей"
+            },
+            "customFilters": {
+                "title": "Настраиваемые фильтры",
+                "description": "Персонализированная фильтрация контента"
+            },
+            "systemPrinciples": {
+                "title": "Как работает система",
+                "subtitle": "Пять этапов интеллектуальной обработки новостей от сбора до персонализированной доставки",
+                "steps": {
+                    "collection": {
+                        "title": "Сбор информации",
+                        "description": "Гидра сканирует тысячи источников в режиме реального времени"
+                    },
+                    "analysis": {
+                        "title": "ИИ-анализ",
+                        "description": "Оракул анализирует контент на релевантность и качество"
+                    },
+                    "filtering": {
+                        "title": "Фильтрация",
+                        "description": "Интеллектуальное удаление дубликатов и низкокачественного контента"
+                    },
+                    "personalization": {
+                        "title": "Персонализация",
+                        "description": "Адаптация под ваши интересы и предпочтения"
+                    },
+                    "delivery": {
+                        "title": "Доставка",
+                        "description": "Мультиплатформенная доставка в удобном формате"
+                    }
+                }
+            },
+            "keyBenefits": {
+                "timeSaving": {
+                    "title": "Экономия времени",
+                    "description": "До 80% времени на поиск и фильтрацию актуальных новостей"
+                },
+                "personalization": {
+                    "title": "Персонализация",
+                    "description": "ИИ-фильтры адаптируются под ваши интересы и предпочтения"
+                },
+                "flowControl": {
+                    "title": "Контроль потока",
+                    "description": "Полный контроль над информационным потоком и его качеством"
+                }
+            },
+            "bottomCta": {
+                "userCount": "Более 1,200+ пользователей уже экономят время с ИИ-курацией"
+            },
+            "realtime": {
+                "title": "Real-Time Aggregation",
+                "description": "Получайте новости в реальном времени из множества источников"
+            },
+            "ai": {
+                "title": "AI Analysis",
+                "description": "Интеллектуальный анализ и категоризация контента"
+            },
+            "custom": {
+                "title": "Custom Filters",
+                "description": "Настраиваемые фильтры для персонализированной ленты новостей"
+            },
+            "integration": {
+                "title": "Easy Integration",
+                "description": "Простая интеграция с вашими существующими рабочими процессами"
+            }
+        },
+        "demo": {
+            "liveDemo": "Живая демонстрация",
+            "title": "Увидите в действии",
+            "subtitle": "Experience the power of AI-driven news aggregation",
+            "aiFiltered": "ИИ-фильтрация",
+            "autoTelegram": "Авто-Telegram"
+        },
+        "pricing": {
+            "title": "Простые и понятные цены",
+            "subtitle": "Выберите план, который подходит именно вам",
+            "monthly": "Ежемесячно",
+            "yearly": "Ежегодно",
+            "free": {
+                "name": "Бесплатный",
+                "price": "0₽",
+                "features": [
+                    "До 100 статей в день",
+                    "5 источников новостей",
+                    "Базовая фильтрация",
+                    "Email поддержка"
+                ]
+            },
+            "pro": {
+                "name": "Профессиональный",
+                "price": "1,999₽",
+                "features": [
+                    "Неограниченные статьи",
+                    "50+ источников новостей",
+                    "AI анализ настроений",
+                    "Расширенная фильтрация",
+                    "Priority поддержка",
+                    "API доступ"
+                ]
+            },
+            "enterprise": {
+                "name": "Корпоративный",
+                "price": "Индивидуально",
+                "features": [
+                    "Все функции Pro",
+                    "Кастомные источники",
+                    "White-label решение",
+                    "Персональный менеджер",
+                    "SLA гарантии"
+                ]
+            }
+        },
+        "testimonials": {
+            "title": "Что говорят наши клиенты",
+            "subtitle": "Узнайте, как наша платформа помогает компаниям оставаться в курсе событий"
+        },
+        "cta": {
+            "title": "Готовы начать?",
+            "subtitle": "Присоединяйтесь к тысячам профессионалов, которые уже используют нашу платформу",
+            "button": "Начать бесплатно"
+        },
+        "footer": {
+            "description": "AI-powered платформа для агрегации новостей, которая помогает оставаться в курсе важных событий",
+            "links": {
+                "product": "Продукт",
+                "company": "Компания",
+                "resources": "Ресурсы",
+                "legal": "Правовая информация"
+            },
+            "copyright": "© 2024 Chimera News. Все права защищены."
+        }
+    },
+    "dashboard": {
+        "title": "Панель управления",
+        "subtitle": "Обзор вашей новостной ленты и аналитики",
+        "welcome": "Добро пожаловать, {{name}}!",
+        "views": {
+            "tiles": "Плитки",
+            "strips": "Полоски",
+            "list": "Список"
+        },
+        "searchPlaceholder": "Поиск статей, источников, ключевых слов...",
+        "searchPlaceholderMobile": "Поиск статей...",
+        "filters": "Фильтры",
+        "todayArticles": "Сегодня статей: {{count}}",
+        "saved": "Сохранено: {{count}}",
+        "sources": "Источников: {{count}}",
+        "manageSources": "Управлять источниками",
+        "archive": "Архив",
+        "shortcuts": {
+            "toggleFilters": "Переключить фильтры",
+            "toggleTrends": "Переключить тренды",
+            "closePanels": "Закрыть панели"
+        },
+        "stats": {
+            "articlesProcessed": "Обработано статей",
+            "sourcesActive": "Активных источников",
+            "keywordMatches": "Совпадений по ключевым словам",
+            "sentimentScore": "Оценка настроений"
+        },
+        "quickActions": {
+            "title": "Быстрые действия",
+            "addSource": "Добавить источник",
+            "manageKeywords": "Управление ключевыми словами",
+            "exportData": "Экспорт данных",
+            "viewAnalytics": "Просмотр аналитики"
+        },
+        "recentActivity": {
+            "title": "Последняя активность",
+            "noActivity": "Пока нет активности"
+        },
+        "trends": {
+            "title": "Тренды",
+            "rising": "Растущие темы",
+            "declining": "Снижающиеся темы"
+        }
+    },
+    "newsFeed": {
+        "title": "Лента новостей",
+        "subtitle": "Персонализированная лента новостей на основе ваших предпочтений",
+        "filters": {
+            "all": "Все",
+            "today": "Сегодня",
+            "thisWeek": "За неделю",
+            "sources": "Источники",
+            "categories": "Категории",
+            "sentiment": "Настроение",
+            "positive": "Позитивное",
+            "negative": "Негативное",
+            "neutral": "Нейтральное"
+        },
+        "sort": {
+            "latest": "Последние",
+            "relevant": "Релевантные",
+            "popular": "Популярные"
+        },
+        "noResults": "Новости не найдены",
+        "loadMore": "Загрузить ещё",
+        "refreshFeed": "Обновить ленту"
+    },
+    "sourceManagement": {
+        "title": "Управление источниками",
+        "subtitle": "Добавляйте и управляйте источниками новостей",
+        "addSource": "Добавить источник",
+        "editSource": "Редактировать источник",
+        "deleteSource": "Удалить источник",
+        "confirmDelete": "Вы уверены, что хотите удалить этот источник?",
+        "form": {
+            "name": "Название источника",
+            "url": "URL источника",
+            "category": "Категория",
+            "updateFrequency": "Частота обновления",
+            "active": "Активен",
+            "testConnection": "Проверить соединение"
+        },
+        "status": {
+            "active": "Активен",
+            "inactive": "Неактивен",
+            "error": "Ошибка",
+            "testing": "Проверка..."
+        }
+    },
+    "keywordManagement": {
+        "title": "Управление ключевыми словами",
+        "subtitle": "Настройте ключевые слова для фильтрации новостей",
+        "addKeyword": "Добавить ключевое слово",
+        "editKeyword": "Редактировать ключевое слово",
+        "deleteKeyword": "Удалить ключевое слово",
+        "form": {
+            "keyword": "Ключевое слово",
+            "category": "Категория",
+            "weight": "Вес",
+            "include": "Включить",
+            "exclude": "Исключить"
+        },
+        "suggestions": "Предложения",
+        "trending": "Трендовые ключевые слова"
+    },
+    "analytics": {
+        "title": "Аналитика",
+        "subtitle": "Детальная аналитика вашей новостной ленты",
+        "overview": {
+            "title": "Обзор",
+            "articlesProcessed": "Обработано статей",
+            "averagePerDay": "В среднем за день",
+            "topCategory": "Топ категория",
+            "sentimentTrend": "Тренд настроений"
+        },
+        "charts": {
+            "articlesByDate": "Статьи по датам",
+            "sentimentAnalysis": "Анализ настроений",
+            "topSources": "Топ источники",
+            "categoryDistribution": "Распределение по категориям"
+        },
+        "timeRange": {
+            "lastWeek": "Последняя неделя",
+            "lastMonth": "Последний месяц",
+            "lastQuarter": "Последний квартал",
+            "lastYear": "Последний год"
+        }
+    },
+    "telegramIntegration": {
+        "title": "Интеграция с Telegram",
+        "subtitle": "Настройте автоматическую публикацию новостей в Telegram",
+        "setup": {
+            "title": "Настройка бота",
+            "step1": "Создайте бота через @BotFather",
+            "step2": "Получите токен API",
+            "step3": "Настройте каналы",
+            "step4": "Проверьте соединение"
+        },
+        "botSetup": {
+            "title": "Настройки бота",
+            "botToken": "Токен бота",
+            "botName": "Имя бота",
+            "testConnection": "Проверить соединение"
+        },
+        "channels": {
+            "title": "Каналы",
+            "addChannel": "Добавить канал",
+            "channelId": "ID канала",
+            "channelName": "Название канала"
+        },
+        "posting": {
+            "title": "Настройки публикации",
+            "format": "Формат сообщения",
+            "schedule": "Расписание",
+            "autoPost": "Автоматическая публикация"
+        }
+    },
+    "semanticAnalysis": {
+        "title": "Семантический анализ",
+        "subtitle": "Глубокий анализ контента с помощью ИИ",
+        "analysis": {
+            "sentiment": "Анализ настроений",
+            "entities": "Распознавание сущностей",
+            "topics": "Классификация тем",
+            "summary": "Краткое содержание",
+            "facts": "Извлечение фактов",
+            "related": "Связанные статьи"
+        },
+        "sentiment": {
+            "positive": "Позитивное",
+            "negative": "Негативное",
+            "neutral": "Нейтральное",
+            "score": "Оценка"
+        },
+        "entities": {
+            "person": "Лица",
+            "organization": "Организации",
+            "location": "Места",
+            "misc": "Прочее"
+        },
+        "quickActions": {
+            "title": "Быстрые действия",
+            "bookmark": "В закладки",
+            "share": "Поделиться",
+            "export": "Экспорт",
+            "translate": "Перевести"
+        }
+    },
+    "errors": {
+        "notFound": "Страница не найдена",
+        "serverError": "Ошибка сервера",
+        "networkError": "Ошибка сети",
+        "unauthorized": "Неавторизован",
+        "forbidden": "Доступ запрещён",
+        "validationError": "Ошибка валидации",
+        "tryAgain": "Попробовать снова",
+        "goHome": "На главную",
+        "contactSupport": "Связаться с поддержкой"
+    },
+    "notifications": {
+        "newArticles": "Новые статьи доступны",
+        "sourceAdded": "Источник добавлен",
+        "keywordMatched": "Найдены совпадения по ключевым словам",
+        "analysisComplete": "Анализ завершён",
+        "exportReady": "Экспорт готов"
+    }
+}
